@@ -6,7 +6,7 @@ The benefit of using this library is that it allows you to use and manipulate va
 
 ## Build Instructions
 
-To build this library, execute the following commands at the terminal.
+To build the code in this repository, execute the following commands at the terminal.
 
 ```cpp
 mkdir build install
@@ -16,7 +16,7 @@ cmake --build build --target install --parallel $(nproc)
 
 These commands will build the unit tests and install all the header files for `QuantityTypes` and its dependencies along with the unit tests to the `install` directory.
 
-To disable building unit tests, modify the `cmake -B ...` command above as follows.
+To disable building unit tests, modify the `cmake -B ...` command above as follows. Disabling unit tests will result in just the installation of the header files.
 
 ```cpp
 cmake -B build -DCMAKE_INSTALL_PREFIX=install -DBUILD_TESTS=OFF
