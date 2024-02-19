@@ -9,6 +9,9 @@ add_executable(quantity_types_tests length_tests.cpp
 
 target_link_libraries(quantity_types_tests PUBLIC GTest::gtest_main ${PROJECT_NAME})
 
+target_compile_options(quantity_types_tests INTERFACE
+  "$<BUILD_INTERFACE:-Wall;-Wextra;-Wshadow;-Wformat=2;-Wunused;-Wpedantic;-Wc++17-compat>")
+
 include(GoogleTest)
 gtest_discover_tests(quantity_types_tests)
 
