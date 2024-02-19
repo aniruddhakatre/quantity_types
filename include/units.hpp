@@ -30,3 +30,7 @@ using KilometerPerHour = fluent::NamedType<double, struct KilometerPerHourTag, f
 using MeterPerSecSq = fluent::NamedType<double, struct MeterPerSecSqTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
 using FeetPerSecSq = fluent::NamedType<double, struct FeetPerSecSqTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
 using AccelG = fluent::NamedType<double, struct AccelGTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+
+using Gram = fluent::NamedType<double, struct GramTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+using Kilogram = fluent::NamedType<double, struct KilogramTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+using Pound = fluent::NamedType<double, struct PoundTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
