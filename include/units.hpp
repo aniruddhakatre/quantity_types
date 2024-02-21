@@ -34,3 +34,7 @@ using AccelG = fluent::NamedType<double, struct AccelGTag, fluent::Addable, flue
 using Gram = fluent::NamedType<double, struct GramTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
 using Kilogram = fluent::NamedType<double, struct KilogramTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
 using Pound = fluent::NamedType<double, struct PoundTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+
+using Celsius = fluent::NamedType<double, struct CelsiusTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+using Fahrenheit = fluent::NamedType<double, struct FahrenheitTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
+using Kelvin = fluent::NamedType<double, struct KelvinTag, fluent::Addable, fluent::Subtractable, fluent::Comparable, fluent::Hashable>;
